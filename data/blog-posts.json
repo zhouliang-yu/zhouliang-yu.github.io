@@ -1,0 +1,107 @@
+{
+  "updated_at": "2026-03-13",
+  "posts": [
+    {
+      "slug": "rl-infra-iteration-loop",
+      "title": "把 RL 训练从“能跑”变成“可迭代”：我最近的工程笔记",
+      "date": "2026-03-12",
+      "icon": "⚙️",
+      "read_time": "6 min",
+      "excerpt": "记录我在 RL 训练基础设施上最常踩的坑：实验定义、日志一致性、和失败样本回放。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "最近我越来越相信，研究效率不只取决于算法本身，更取决于你能否稳定地复现实验并快速迭代。"
+        },
+        {
+          "type": "heading",
+          "text": "1. 先定义实验单元，再定义模型"
+        },
+        {
+          "type": "paragraph",
+          "text": "我现在会先确定一次实验 run 的最小配置结构：数据版本、reward 版本、采样策略、评估脚本哈希。这样后面分析差异时不需要猜。"
+        },
+        {
+          "type": "heading",
+          "text": "2. 失败样本比平均分更重要"
+        },
+        {
+          "type": "paragraph",
+          "text": "很多 benchmark 上，均值看起来在涨，但模型仍然会在某些固定模式上反复失败。把失败轨迹保存下来并做周期回放，收益非常明显。"
+        },
+        {
+          "type": "list",
+          "items": [
+            "每 1k step 固定抽取失败样本集合",
+            "记录触发失败时的上下文 token 预算",
+            "评估时单独统计 hardest slice"
+          ]
+        },
+        {
+          "type": "quote",
+          "text": "如果你不知道模型在哪些 case 上持续失败，你其实并不了解自己的训练过程。"
+        }
+      ]
+    },
+    {
+      "slug": "formal-math-benchmarking-principles",
+      "title": "Formal Math Benchmark 应该测什么：三个我在意的指标",
+      "date": "2026-02-28",
+      "icon": "📐",
+      "read_time": "5 min",
+      "excerpt": "除了 pass rate，我更看重 decomposition、self-correction、和 proof stability。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "在 formal math 场景中，单一 pass rate 很难完整反映模型能力。"
+        },
+        {
+          "type": "heading",
+          "text": "我会优先看这三件事"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Decomposition quality: 是否能把目标拆成可执行子问题",
+            "Self-correction efficiency: 错误出现后多快能修正",
+            "Proof stability: 轻微扰动下证明是否保持可通过"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "这三个指标一起看，能更早发现模型是“真的会”还是“偶然蒙对”。"
+        }
+      ]
+    },
+    {
+      "slug": "long-horizon-research-notes",
+      "title": "我如何管理长期研究问题（12-18 个月）",
+      "date": "2026-01-30",
+      "icon": "🧭",
+      "read_time": "4 min",
+      "excerpt": "一个简单但有效的框架：问题树、里程碑假设、和可证伪 checkpoints。",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "长期课题最容易出的问题是：每天都很忙，但三个月后不知道自己推进了什么。"
+        },
+        {
+          "type": "heading",
+          "text": "我的工作流"
+        },
+        {
+          "type": "list",
+          "items": [
+            "把大问题拆成问题树（问题-假设-验证路径）",
+            "每个里程碑只追一个核心假设",
+            "每两周强制写一次“被证伪了什么”"
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "被证伪不是坏事，它直接决定你下一个月不会在同样的方向上重复投入。"
+        }
+      ]
+    }
+  ]
+}

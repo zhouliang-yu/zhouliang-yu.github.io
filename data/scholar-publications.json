@@ -1,0 +1,109 @@
+{
+  "source": "Google Scholar",
+  "scholar_user_id": "qUMjnPcAAAAJ",
+  "profile_url": "https://scholar.google.com/citations?hl=en&user=qUMjnPcAAAAJ",
+  "synced_at": "2026-03-13T07:33:56.689754+00:00",
+  "total_publications": 11,
+  "verified_link_count": 11,
+  "items": [
+    {
+      "title": "Simko: Simple pass@ k policy optimization",
+      "authors": "R Peng, Y Ren, Z Yu, W Liu, Y Wen",
+      "venue": "arXiv preprint arXiv:2510.14807, 2025",
+      "year": 2025,
+      "citations": 8,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qUMjnPcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=qUMjnPcAAAAJ:e5wmG9Sq2KIC",
+      "verified": true
+    },
+    {
+      "title": "Criticlean: Critic-guided reinforcement learning for mathematical formalization",
+      "authors": "Z Peng, Y Yao, K Ma, S Guo, Y Li, Y Zhang, C Zhang, Y Zhang, Z Yu, L Li, ...",
+      "venue": "arXiv preprint arXiv:2507.06181, 2025",
+      "year": 2025,
+      "citations": 10,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qUMjnPcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=qUMjnPcAAAAJ:hFOr9nPyWt4C",
+      "verified": true
+    },
+    {
+      "title": "Formalmath: Benchmarking formal mathematical reasoning of large language models",
+      "authors": "Z Yu, R Peng, K Ding, Y Li, Z Peng, M Liu, Y Zhang, Z Yuan, H Xin, ...",
+      "venue": "https://arxiv.org/abs/2505.02735, 2025",
+      "year": 2025,
+      "citations": 38,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qUMjnPcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=qUMjnPcAAAAJ:TQgYirikUcIC",
+      "verified": true
+    },
+    {
+      "title": "Kimina-prover preview: Towards large formal reasoning models with reinforcement learning",
+      "authors": "H Wang, M Unsal, X Lin, M Baksys, J Liu, MD Santos, F Sung, M Vinyes, ...",
+      "venue": "arXiv preprint arXiv:2504.11354, 2025",
+      "year": 2025,
+      "citations": 119,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qUMjnPcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=qUMjnPcAAAAJ:5nxA0vEk-isC",
+      "verified": true
+    },
+    {
+      "title": "Generating Symbolic World Models via Test-time Scaling of Large Language Models",
+      "authors": "Z Yu, Y Yuan, TZ Xiao, FF Xia, J Fu, G Zhang, G Lin, W Liu",
+      "venue": "Transactions on Machine Learning Research (arXiv preprint arXiv:2502.04728), 2025",
+      "year": 2025,
+      "citations": 11,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qUMjnPcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=qUMjnPcAAAAJ:KlAtU1dfN6UC",
+      "verified": true
+    },
+    {
+      "title": "Map-neo: Highly capable and transparent bilingual large language model series",
+      "authors": "G Zhang, S Qu, J Liu, C Zhang, C Lin, CL Yu*, D Pan, E Cheng, J Liu, ...",
+      "venue": "(Core contributor) Technical Report, 2024",
+      "year": 2024,
+      "citations": 58,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qUMjnPcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=qUMjnPcAAAAJ:ufrVoPGSRksC",
+      "verified": true
+    },
+    {
+      "title": "ManiFoundation Model for General-Purpose Robotic Manipulation of Contact Synthesis with Arbitrary Objects and Robots",
+      "authors": "Z Xu, C Gao, Z Liu, G Yang, C Tie, H Zheng, H Zhou, W Peng, D Wang, ...",
+      "venue": "International Conference on Intelligent Robots and Systems (Oral), 2024",
+      "year": 2024,
+      "citations": 16,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qUMjnPcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=qUMjnPcAAAAJ:YsMSGLbcyi4C",
+      "verified": true
+    },
+    {
+      "title": "Chinese tiny llm: Pretraining a chinese-centric large language model",
+      "authors": "X Du, Z Yu*, S Gao, D Pan, Y Cheng, Z Ma, R Yuan, X Qu, J Liu, T Zheng, ...",
+      "venue": "Conference on Language Modeling (https://arxiv.org/abs/2404.04167), 2024",
+      "year": 2024,
+      "citations": 34,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qUMjnPcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=qUMjnPcAAAAJ:roLk4NBRz8UC",
+      "verified": true
+    },
+    {
+      "title": "Codeeditorbench: Evaluating code editing capability of large language models",
+      "authors": "J Guo, Z Li, X Liu, K Ma, T Zheng, Z Yu, D Pan, Y Li, R Liu, Y Wang, S Guo, ...",
+      "venue": "Deep Learning for Code Workshop at ICLR2025, 2024",
+      "year": 2024,
+      "citations": 42,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qUMjnPcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=qUMjnPcAAAAJ:Y0pCki6q_DkC",
+      "verified": true
+    },
+    {
+      "title": "ASP: Learn a universal neural solver!",
+      "authors": "C Wang, Z Yu, S McAleer, T Yu, Y Yang",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence 46 (6), 4102-4114, 2024",
+      "year": 2024,
+      "citations": 53,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qUMjnPcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=qUMjnPcAAAAJ:zYLM7Y9cAGgC",
+      "verified": true
+    },
+    {
+      "title": "Multireact: Multimodal tools augmented reasoning-acting traces for embodied agent planning",
+      "authors": "Z Yu, J Fu, Y Mu, C Wang, L Shao, Y Yang",
+      "venue": "Robot Learning Workshop at NeurIPS 2023 (Oral), 2023",
+      "year": 2023,
+      "citations": 4,
+      "scholar_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=qUMjnPcAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=qUMjnPcAAAAJ:ULOm3_A8WrAC",
+      "verified": true
+    }
+  ]
+}
