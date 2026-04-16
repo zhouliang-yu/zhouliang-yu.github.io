@@ -1,0 +1,114 @@
+/* Blog listing & posts (works with site.css) */
+.blog-main {
+  padding-bottom: 2.5rem;
+}
+
+.blog-lead {
+  color: #444;
+  margin-bottom: 1.75rem;
+  line-height: 1.65;
+}
+
+#navbar a.nav-current {
+  border-bottom: 2px solid #5f6f52;
+  color: #5f6f52;
+}
+
+.post-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.post-list-item {
+  margin: 0 0 0.25rem;
+  padding: 1.1rem 0 1.35rem;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.post-list-item:last-child {
+  border-bottom: none;
+}
+
+.post-list-meta {
+  font-size: 0.88em;
+  color: #666;
+  margin-bottom: 0.35rem;
+}
+
+.post-list-title {
+  font-size: 1.25rem;
+  margin: 0 0 0.4rem;
+  padding: 0;
+  border: none;
+  line-height: 1.35;
+}
+
+.post-list-title a {
+  color: #1a1a1a;
+  font-weight: 600;
+}
+
+.post-list-title a:hover {
+  color: #224b8d;
+}
+
+.post-list-excerpt {
+  margin: 0;
+  color: #444;
+  font-size: 0.95em;
+  line-height: 1.55;
+}
+
+/* Single post */
+.post-header h1 {
+  border-bottom: none;
+  margin-bottom: 0.35rem;
+  padding-bottom: 0;
+}
+
+.post-meta {
+  font-size: 0.9em;
+  color: #666;
+  margin-bottom: 1.25rem;
+}
+
+.post-tags .tag {
+  color: #2e5a87;
+}
+
+.post-body {
+  max-width: 100%;
+}
+
+.post-body h2 {
+  font-size: 1.2rem;
+  margin-top: 1.5rem;
+}
+
+.post-body pre,
+.post-body code {
+  font-family: ui-monospace, "Cascadia Code", "Source Code Pro", Menlo, Consolas, monospace;
+  font-size: 0.9em;
+}
+
+.post-body pre {
+  background: #f6f8fa;
+  border: 1px solid #e1e4e8;
+  border-radius: 6px;
+  padding: 12px 14px;
+  overflow-x: auto;
+}
+
+.post-body pre code {
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.post-back {
+  margin-top: 2.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+  font-size: 0.95em;
+}

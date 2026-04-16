@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}Zhouliang Yu (郁昼亮)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/site.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/blog.css' | relative_url }}">
+  <link rel="shortcut icon" href="{{ '/images/favicon/favicon.ico' | relative_url }}" type="image/x-icon">
+  <script defer src="{{ '/assets/js/nav.js' | relative_url }}"></script>
+</head>
+<body id="top">
+  {% include nav.html %}
+  <div class="page-section">
+    <div class="layout-content blog-main">
+      {{ content }}
+    </div>
+  </div>
+</body>
+</html>

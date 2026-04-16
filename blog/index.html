@@ -1,0 +1,22 @@
+---
+layout: default
+title: Blog
+description: Research notes and writing.
+---
+<div id="toptitle">
+  <h1>Blog</h1>
+</div>
+
+<p class="blog-lead">Research notes, methods, and reading.</p>
+
+<ul class="post-list">
+  {% for post in site.posts %}
+  <li class="post-list-item">
+    <article>
+      <div class="post-list-meta">{{ post.date | date: "%Y-%m-%d" }}{% if post.tags.size > 0 %} · {{ post.tags | join: " · " }}{% endif %}</div>
+      <h2 class="post-list-title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+      <p class="post-list-excerpt">{{ post.excerpt | strip_html | truncatewords: 48 }}</p>
+    </article>
+  </li>
+  {% endfor %}
+</ul>
